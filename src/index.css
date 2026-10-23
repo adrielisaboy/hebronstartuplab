@@ -194,7 +194,7 @@ a {
 
 .section-paper {
   background-color: var(--paper-warm);
-  background-image: url("/assets/hsl-paper-texture.png");
+  background-image: url("/assets/hsl-paper-texture.webp");
   background-size: 680px auto;
 }
 
@@ -206,7 +206,7 @@ a {
   place-items: center;
   overflow: hidden;
   isolation: isolate;
-  background-image: linear-gradient(rgba(255, 255, 255, .35), rgba(255, 255, 255, .35)), url("/assets/hsl-light-confetti-field.png");
+  background-image: linear-gradient(rgba(255, 255, 255, .35), rgba(255, 255, 255, .35)), url("/assets/hsl-light-confetti-field.webp");
   background-size: cover;
   background-position: center;
 }
@@ -216,7 +216,7 @@ a {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background-image: url("/assets/hsl-paper-texture.png");
+  background-image: url("/assets/hsl-paper-texture.webp");
   mix-blend-mode: multiply;
   opacity: .15;
   background-size: 520px;
@@ -515,7 +515,7 @@ h3 {
   overflow: hidden;
   padding: clamp(80px, 9vw, 135px) 4.2vw;
   color: #fff;
-  background: #030303 url("/assets/hsl-dark-confetti-field.png") center / cover;
+  background: #030303 url("/assets/hsl-dark-confetti-field.webp") center / cover;
 }
 
 .stage-wrap {
@@ -813,7 +813,7 @@ h3 {
   overflow: hidden;
   padding: clamp(90px, 9vw, 140px) 4.2vw 26px;
   color: #fff;
-  background: #030303 url("/assets/hsl-dark-confetti-field.png") center / cover;
+  background: #030303 url("/assets/hsl-dark-confetti-field.webp") center / cover;
 }
 
 .footer-cta {
@@ -1320,7 +1320,7 @@ h3 {
   padding: 170px 11vw 105px;
   overflow: hidden;
   color: #fff;
-  background: #000 url("/assets/hsl-dark-confetti-field.png") center / cover;
+  background: #000 url("/assets/hsl-dark-confetti-field.webp") center / cover;
 }
 
 .dark-public-hero>div {
@@ -1380,7 +1380,7 @@ h3 {
 .timeline-section {
   padding: 110px 4.2vw;
   color: #fff;
-  background: #000 url("/assets/hsl-dark-confetti-field.png") center / cover;
+  background: #000 url("/assets/hsl-dark-confetti-field.webp") center / cover;
 }
 
 .timeline-section h2 {
@@ -1489,7 +1489,7 @@ h3 {
   justify-content: center;
   padding: 130px 24px 85px;
   text-align: center;
-  background: var(--paper-warm) url("/assets/hsl-light-confetti-field.png") center / cover;
+  background: var(--paper-warm) url("/assets/hsl-light-confetti-field.webp") center / cover;
 }
 
 .public-hero h1 {
@@ -1869,7 +1869,7 @@ h3 {
   gap: 9vw;
   padding: 110px 17vw;
   color: #fff;
-  background: #000 url("/assets/hsl-dark-confetti-field.png") center / cover;
+  background: #000 url("/assets/hsl-dark-confetti-field.webp") center / cover;
 }
 
 .deck-request h2 {
@@ -2048,7 +2048,7 @@ h3 {
   min-height: 100vh;
   overflow: hidden;
   color: #fff;
-  background: #000 url("/assets/hsl-dark-confetti-field.png") center / cover;
+  background: #000 url("/assets/hsl-dark-confetti-field.webp") center / cover;
 }
 
 .auth-mark {
@@ -2178,7 +2178,7 @@ h3 {
   padding: 30px;
   color: #fff;
   text-align: center;
-  background: #000 url("/assets/hsl-dark-confetti-field.png") center / cover;
+  background: #000 url("/assets/hsl-dark-confetti-field.webp") center / cover;
 }
 
 .welcome-mark {
@@ -3577,7 +3577,7 @@ h3 {
   gap: 34px;
   padding: 37px 38px;
   color: #fff;
-  background: #111 url("/assets/hsl-dark-confetti-field.png") center / cover;
+  background: #111 url("/assets/hsl-dark-confetti-field.webp") center / cover;
 }
 
 .admin-welcome h2 {
@@ -4673,16 +4673,16 @@ html.dark .theme-toggle-btn:hover {
 /* Dark Mode Hero & Sections */
 html.dark .section-paper {
   background-color: #0c0c12;
-  background-image: linear-gradient(rgba(12, 12, 18, 0.85), rgba(12, 12, 18, 0.85)), url("/assets/hsl-dark-confetti-field.png");
+  background-image: linear-gradient(rgba(12, 12, 18, 0.85), rgba(12, 12, 18, 0.85)), url("/assets/hsl-dark-confetti-field.webp");
   background-size: cover;
 }
 
 html.dark .hero {
-  background-image: linear-gradient(rgba(9, 9, 14, 0.75), rgba(9, 9, 14, 0.85)), url("/assets/hsl-dark-confetti-field.png");
+  background-image: linear-gradient(rgba(9, 9, 14, 0.75), rgba(9, 9, 14, 0.85)), url("/assets/hsl-dark-confetti-field.webp");
 }
 
 html.dark .public-hero {
-  background-image: linear-gradient(rgba(9, 9, 14, 0.82), rgba(9, 9, 14, 0.9)), url("/assets/hsl-dark-confetti-field.png");
+  background-image: linear-gradient(rgba(9, 9, 14, 0.82), rgba(9, 9, 14, 0.9)), url("/assets/hsl-dark-confetti-field.webp");
   background-size: cover;
   background-position: center;
 }
@@ -4701,7 +4701,7 @@ html.dark .investor-detail h3 {
 }
 
 html.dark .deck-request {
-  background: #050508 url("/assets/hsl-dark-confetti-field.png") center / cover;
+  background: #050508 url("/assets/hsl-dark-confetti-field.webp") center / cover;
 }
 
 html.dark .hero::before {

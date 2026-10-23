@@ -16,35 +16,7 @@ import { useHeroReveal } from "@/hooks/useHeroReveal";
 
 const NAV_ITEMS = [
   { label: "About", target: "about" },
-  { label: "Communities", target: "communities" },
   { label: "For Investors", target: "investors" },
-];
-
-const COMMUNITY_CARDS = [
-  {
-    accent: "pink",
-    title: "Creatives",
-    copy: "Content writers, Designers, artists, strategists, UX/UI, and people-makers.",
-    links: "Writers · Designers · Marketers",
-  },
-  {
-    accent: "blue",
-    title: "Creators",
-    copy: "Developers and technical builders who turn difficult ideas into tangible tools.",
-    links: "Frontend · Backend · Mobile · Data",
-  },
-  {
-    accent: "orange",
-    title: "Executors",
-    copy: "Project and product managers who keep ambitious things on time, on scope.",
-    links: "Product · Project · Operations",
-  },
-  {
-    accent: "purple",
-    title: "Founders",
-    copy: "First-time founders building ventures inside HSL, from first idea to founding company.",
-    links: "Idea-stage · Early-revenue · Scaling",
-  },
 ];
 
 
@@ -103,8 +75,8 @@ export default function Home() {
 
       <main>
         <section id="top" className="hero section-paper">
-          <img data-float="flyer" className="hero-character hero-character--flyer" src="/assets/pasted_file_3v62K1_image.webp" alt="" />
-          <img data-float="rocket" className="hero-character hero-character--rocket" src="/assets/rocketgirl.webp" alt="" />
+          <img data-float="flyer" className="hero-character hero-character--flyer" src="/assets/pasted_file_3v62K1_image.webp" alt="" fetchPriority="high" decoding="async" />
+          <img data-float="rocket" className="hero-character hero-character--rocket" src="/assets/rocketgirl.webp" alt="" fetchPriority="high" decoding="async" />
           <div className="hero-content">
             <div data-hero-kicker className="eyebrow eyebrow--pill">West Africa's first university-based startup accelerator</div>
             <h1 data-hero-title className="hero-title"><span>Bringing ideas</span><span>to life.</span></h1>
@@ -159,7 +131,7 @@ export default function Home() {
         </section>
 
         <section className="stages-section">
-          <img className="stages-character stages-character--ideas" src="/assets/lightgirl.png" alt="" />
+          <img className="stages-character stages-character--ideas" src="/assets/lightgirl.webp" alt="" loading="lazy" decoding="async" />
           <div className="stage-wrap">
             <p className="eyebrow eyebrow--light" data-reveal>How a startup moves</p>
             <h2 data-reveal>Four stages. One Demo Day.</h2>
@@ -169,15 +141,6 @@ export default function Home() {
                 <article key={number} data-reveal><span>{number}</span><h3>{title}</h3><p>{copy}</p></article>
               ))}
             </div>
-          </div>
-        </section>
-
-        <section id="communities" className="communities-section section-paper">
-          <div className="section-heading" data-reveal><p className="eyebrow">Our communities</p><h2>Four disciplines. One mission.</h2><p>Everyone brings what belongs to them. We're bound by what we build. Pick the community that feels most like your craft.</p></div>
-          <div className="community-grid">
-            {COMMUNITY_CARDS.map((card) => (
-              <article key={card.title} className="community-card" data-reveal><span className={`accent-block accent-block--${card.accent}`} /><h3>{card.title}</h3><p>{card.copy}</p><span className="card-disciplines">{card.links}</span></article>
-            ))}
           </div>
         </section>
 
@@ -191,7 +154,7 @@ export default function Home() {
       </main>
 
       <footer id="contact" className="site-footer">
-        <div className="footer-characters official-footer-art" aria-hidden="true"><img src="/assets/rocketgirl.png" alt="" /><img src="/assets/lightgirl.png" alt="" /><img src="/assets/hslguyy.png" alt="" /><img src="/assets/pasted_file_3v62K1_image.png" alt="" /></div>
+        <div className="footer-characters official-footer-art" aria-hidden="true"><img src="/assets/rocketgirl.webp" alt="" loading="lazy" decoding="async" /><img src="/assets/lightgirl.webp" alt="" loading="lazy" decoding="async" /><img src="/assets/hslguyy.webp" alt="" loading="lazy" decoding="async" /><img src="/assets/pasted_file_3v62K1_image.webp" alt="" loading="lazy" decoding="async" /></div>
         <div className="footer-grid">
           <div className="footer-brand"><BrandLogo alt="HSL Logo" forceTheme="dark" /><p>West Africa's first University based startup accelerator. From concept, to product, to market.</p></div>
           <div><h3>Location</h3><p className="footer-text">Covenant University</p><p className="footer-text">KM 10 Idiroko Road, Canaanland</p><p className="footer-text">Ota, Ogun State, Nigeria</p></div>
