@@ -18,7 +18,7 @@ export function BrandLogo({
 }: BrandLogoProps) {
   const { theme } = useTheme();
   const activeTheme = forceTheme || theme;
-  const logoSrc = activeTheme === "dark" ? "/assets/hsl3.png" : "/assets/hsl2.png";
+  const logoSrc = activeTheme === "dark" ? "/assets/hsl3.webp" : "/assets/hsl2.webp";
 
   return (
     <img

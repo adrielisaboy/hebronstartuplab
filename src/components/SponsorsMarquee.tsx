@@ -8,12 +8,12 @@ export interface SponsorLogo {
 }
 
 export const SPONSOR_LOGOS: SponsorLogo[] = [
-  { name: "Reavo", logo: "/assets/reavo.png" },
-  { name: "ASG", logo: "/assets/asg.png" },
-  { name: "TedX", logo: "/assets/tedx.png" },
-  { name: "DevSpace", logo: "/assets/devspace.png" },
-  { name: "360 Men", logo: "/assets/360men.png" },
-  { name: "LeadSage", logo: "/assets/leadsage.png" },
+  { name: "Reavo", logo: "/assets/reavo.webp" },
+  { name: "ASG", logo: "/assets/asg.webp" },
+  { name: "DevSpace", logo: "/assets/devspace.webp" },
+  { name: "360 Men", logo: "/assets/360men.webp" },
+  { name: "LeadSage", logo: "/assets/leadsage.webp" },
+  { name: "TedX", logo: "/assets/tedx.webp" },
 ];
 
 interface SponsorsMarqueeProps {

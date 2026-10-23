@@ -103,8 +103,8 @@ export default function Home() {
 
       <main>
         <section id="top" className="hero section-paper">
-          <img data-float="flyer" className="hero-character hero-character--flyer" src="/assets/pasted_file_3v62K1_image.png" alt="" />
-          <img data-float="rocket" className="hero-character hero-character--rocket" src="/assets/rocketgirl.png" alt="" />
+          <img data-float="flyer" className="hero-character hero-character--flyer" src="/assets/pasted_file_3v62K1_image.webp" alt="" />
+          <img data-float="rocket" className="hero-character hero-character--rocket" src="/assets/rocketgirl.webp" alt="" />
           <div className="hero-content">
             <div data-hero-kicker className="eyebrow eyebrow--pill">West Africa's first university-based startup accelerator</div>
             <h1 data-hero-title className="hero-title"><span>Bringing ideas</span><span>to life.</span></h1>
@@ -196,7 +196,7 @@ export default function Home() {
           <div className="footer-brand"><BrandLogo alt="HSL Logo" forceTheme="dark" /><p>West Africa's first University based startup accelerator. From concept, to product, to market.</p></div>
           <div><h3>Location</h3><p className="footer-text">Covenant University</p><p className="footer-text">KM 10 Idiroko Road, Canaanland</p><p className="footer-text">Ota, Ogun State, Nigeria</p></div>
           <div><h3>Focus</h3><p className="footer-text">Creatives & Creators</p><p className="footer-text">Executors & Founders</p><p className="footer-text">Venture Acceleration</p></div>
-          <div><h3>Contact</h3><p className="footer-text">hello@hebronstartuplab.com</p><p className="footer-text">Mon – Fri · 9:00 AM – 5:00 PM</p></div>
+          <div><h3>Contact</h3><p className="footer-text">startup@covenantuniversity.edu.ng</p><p className="footer-text">Mon – Fri · 9:00 AM – 5:00 PM</p></div>
         </div>
         <div className="footer-bottom"><span>© 2026 Hebron Startup Lab. All rights reserved.</span><span>Designed for people who ship.</span></div>
       </footer>
