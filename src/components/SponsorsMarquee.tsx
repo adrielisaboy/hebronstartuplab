@@ -8,15 +8,12 @@ export interface SponsorLogo {
 }
 
 export const SPONSOR_LOGOS: SponsorLogo[] = [
-  { name: "Wema Bank", logo: "/assets/wemabank.png" },
-  { name: "United Capital", logo: "/assets/unitedcapital.png" },
-  { name: "ALAT by Wema", logo: "/assets/alat.png" },
-  { name: "AfriLabs", logo: "/assets/afrilabs.png" },
-  { name: "Venture Garden Group", logo: "/assets/venturegarden.png" },
-  { name: "Snapcode Productions", logo: "/assets/snapcode.webp" },
-  { name: "The Indulgence", logo: "/assets/theindulgence.png" },
-  { name: "Waffledom", logo: "/assets/waffledom.png" },
-  { name: "NACK Apparel", logo: "/assets/nack.png" },
+  { name: "Reavo", logo: "/assets/reavo.png" },
+  { name: "ASG", logo: "/assets/asg.png" },
+  { name: "TedX", logo: "/assets/tedx.png" },
+  { name: "DevSpace", logo: "/assets/devspace.png" },
+  { name: "360 Men", logo: "/assets/360men.png" },
+  { name: "LeadSage", logo: "/assets/leadsage.png" },
 ];
 
 interface SponsorsMarqueeProps {
