@@ -144,6 +144,67 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ── Payment Section ── */}
+        <section id="payment" className="payment-section" aria-label="Payments">
+          <div className="payment-header" data-reveal>
+            <p className="eyebrow eyebrow--light">Pay · HSL</p>
+            <h2>MAKE A PAYMENT.</h2>
+            <p className="payment-subtitle" data-reveal>
+              Select the category that applies to you. All payments are processed securely through Paystack.
+            </p>
+          </div>
+
+          <div className="payment-cards">
+            <article className="payment-card" data-reveal>
+              <span className="payment-card__num">01</span>
+              <div className="payment-card__body">
+                <p className="eyebrow eyebrow--light">Membership Dues</p>
+                <h3>Join the Lab.</h3>
+                <p>Pay your membership dues to gain full access to the HSL community, workspace, and resources. Link coming soon.</p>
+              </div>
+              <button className="payment-card__btn payment-card__btn--disabled" disabled aria-disabled="true">
+                Coming Soon
+              </button>
+            </article>
+
+            <article className="payment-card" data-reveal>
+              <span className="payment-card__num">02</span>
+              <div className="payment-card__body">
+                <p className="eyebrow eyebrow--light">Studio Bookings</p>
+                <h3>Book the Studio.</h3>
+                <p>Reserve your slot at the HSL Studio for recordings, productions, and creative sessions. Pay securely online.</p>
+              </div>
+              <a
+                href="https://paystack.shop/pay/uh-0cjg98x"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="payment-card__btn"
+                aria-label="Pay for Studio Booking via Paystack"
+              >
+                Book Now →
+              </a>
+            </article>
+
+            <article className="payment-card" data-reveal>
+              <span className="payment-card__num">03</span>
+              <div className="payment-card__body">
+                <p className="eyebrow eyebrow--light">General Payments</p>
+                <h3>Everything else.</h3>
+                <p>Ideation and acceleration spaces, seminar rooms, event bookings, rentals, and sponsorships. Enter the agreed amount and state the purpose of your payment.</p>
+              </div>
+              <a
+                href="https://paystack.shop/pay/6l6k2056bc"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="payment-card__btn"
+                aria-label="Make a General Payment via Paystack"
+              >
+                Pay Now →
+              </a>
+            </article>
+          </div>
+        </section>
+
         {/* Dedicated Global Sponsors Marquee Section */}
         <SponsorsMarquee />
 
@@ -151,6 +212,7 @@ export default function Home() {
           <div className="investor-intro" data-reveal><p className="eyebrow">For investors & partners</p><h2>A vetted pipeline of investable founders.</h2><p>HSL runs a rigorous, university-backed incubation process — every founder in our portfolio has been through structured mentorship, product validation, and milestone review before they ever pitch. That means less noise, more signal.</p></div>
           <div className="investor-list" data-reveal>{[['University-backed', 'West Africa\'s first university-affiliated startup accelerator, with structured academic and industry partnerships through Covenant University.'], ['Full-stack talent pipeline', 'Every startup draws from our Creatives, Creators, Executors and Founders communities — no cold hiring, no outsourcing.'], ['Track record', '120+ startups incubated. 35+ active ventures. Consistent cohort-on-cohort growth.']].map(([title, copy]) => <article key={title}><h3>{title}</h3><p>{copy}</p></article>)}</div>
         </section>
+
       </main>
 
       <footer id="contact" className="site-footer">
@@ -158,10 +220,10 @@ export default function Home() {
         <div className="footer-grid">
           <div className="footer-brand"><BrandLogo alt="HSL Logo" forceTheme="dark" /><p>West Africa's first University based startup accelerator. From concept, to product, to market.</p></div>
           <div><h3>Location</h3><p className="footer-text">Covenant University</p><p className="footer-text">KM 10 Idiroko Road, Canaanland</p><p className="footer-text">Ota, Ogun State, Nigeria</p></div>
-          <div><h3>Focus</h3><p className="footer-text">Creatives & Creators</p><p className="footer-text">Executors & Founders</p><p className="footer-text">Venture Acceleration</p></div>
+          <div><h3>Focus</h3><p className="footer-text">Building careers</p><p className="footer-text">Venture Acceleration</p></div>
           <div><h3>Contact</h3><p className="footer-text">startup@covenantuniversity.edu.ng</p><p className="footer-text">Mon – Fri · 9:00 AM – 5:00 PM</p></div>
         </div>
-        <div className="footer-bottom"><span>© 2026 Hebron Startup Lab. All rights reserved.</span><span>Designed for people who ship.</span></div>
+        <div className="footer-bottom"><span>© 2026 Hebron Startup Lab. All rights reserved.</span><span>Designed for people who ship. By Jeffrey Adriel Oleabhie</span></div>
       </footer>
     </div>
   );
