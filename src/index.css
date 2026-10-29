@@ -4934,6 +4934,70 @@ html.dark .manifesto-panel--dark {
   border: 1px solid var(--line);
 }
 
+/* Dark Mode Payment Section */
+html.dark .payment-section {
+  background: #06060a;
+  color: #f5f5f7;
+  border-top-color: var(--line);
+}
+
+html.dark .payment-header h2 {
+  color: #ffffff;
+}
+
+html.dark .payment-subtitle {
+  color: #6b7280;
+}
+
+html.dark .payment-cards {
+  background: #1a1a24;
+  border-color: #1a1a24;
+}
+
+html.dark .payment-card {
+  background: #0e0e16;
+}
+
+html.dark .payment-card:hover {
+  background: #13131e;
+}
+
+html.dark .payment-card__num {
+  color: #374151;
+}
+
+html.dark .payment-card__body .eyebrow {
+  color: #4b5563;
+}
+
+html.dark .payment-card__body h3 {
+  color: #f5f5f7;
+}
+
+html.dark .payment-card__body p {
+  color: #6b7280;
+}
+
+html.dark .payment-card__btn {
+  background: #f5f5f7;
+  color: #09090e;
+}
+
+html.dark .payment-card__btn:hover {
+  background: #e5e7eb;
+}
+
+html.dark .payment-card__btn--disabled {
+  background: #1c1c28;
+  color: #374151;
+  border-color: #252533;
+}
+
+html.dark .payment-card__btn--disabled:hover {
+  background: #1c1c28;
+  color: #374151;
+}
+
 html.dark .value span {
   border-color: #374151;
   color: #9ca3af;
