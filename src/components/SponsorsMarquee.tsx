@@ -14,6 +14,8 @@ export const SPONSOR_LOGOS: SponsorLogo[] = [
   { name: "360 Men", logo: "/assets/360men.webp" },
   { name: "LeadSage", logo: "/assets/leadsage.webp" },
   { name: "TedX", logo: "/assets/tedx.webp" },
+  { name: "Prime", logo: "/assets/prime.webp" },
+  { name: "Scribble Green", logo: "/assets/scribblegreen.webp" },
 ];
 
 interface SponsorsMarqueeProps {
